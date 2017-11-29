@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+<body>
+
+<h1>爱民居名宿</h1>
+<button onclick="onBridgeReady()">不要</button>
+<div id="result">
+
+</div>
+<script>
+//  $.ajax({
+//    url:'http://www.luoqy.com/stay/house/loadPage.do?html',
+//    method:'get',
+//    data:{ page: '1', pageSize:'5',type:'2'},
+//  dataType:'post',
+//    jsonp:"callback",
+//    success:function(res){
+//    console.log(res);
+//
+//  }
+
+  $.ajax({
+    url:'http://www.luoqy.com/stay/house/load.do?html',
+    method:'get',
+    data:{ page: '1', pageSize:'5',type:'2'},
+    dataType:'json',
+    success:function(res){
+    console.log(res);
+
+  }
+  })
+
+///**
+// *
+// https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx36749e5213bff0fe&redirect_uri=http://www.luoqy.com&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
+//
+// */
+//var hrefs=window.location.href;
+//var CODE=hrefs.split("?")[1].split("&")[0].split("=")[1];
+// window.location.href="https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx36749e5213bff0fe&secret=538681ba42ed0180432da425cd2172e3&code="+CODE+"&grant_type=authorization_code";
+//
+///* $.ajax({
+//	url:"/user/wxLogin.do",
+//	data:{"code":code},
+//	type:"post",
+//	dataType:"json",
+//	success:function(result){
+//		console.log(result);
+//		$("#result").html(result.message);
+//	}
+//}) */
+//
+//function onBridgeReady(prepay_id){
+//	//调用温馨内容参数	u802345jgfjsdfgsdg888
+//   WeixinJSBridge.invoke(
+//       'getBrandWCPayRequest', {
+//           "appId":"wx36749e5213bff0fe",     //公众号名称，由商户传入
+//           "timeStamp":"1395712654",         //时间戳，自1970年以来的秒数
+//           "nonceStr":"e61463f8efa94090b1f366cccfbbb444", //随机串
+//           "package":"prepay_id="+prepay_id+"",   //订单ID还是啥
+//           "signType":"MD5",         //微信签名方式：
+//           "paySign":"538681ba42ed0180432da425cd2172e3" //微信签名
+//       },
+//       function(res){
+//           if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+//			alert("ok");
+//		}     // 使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+//       }
+//   );
+//}
+//if (typeof WeixinJSBridge == "undefined"){
+//   if( document.addEventListener ){
+//       document.addEventListener('WeixinJSBridgeReady', onBridgeReady(), false);
+//   }else if (document.attachEvent){
+//       document.attachEvent('WeixinJSBridgeReady', onBridgeReady());
+//       document.attachEvent('onWeixinJSBridgeReady', onBridgeReady());
+//   }
+//}else{
+//   onBridgeReady();
+//}
+</script>
+</body>
+</html>

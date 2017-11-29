@@ -1,0 +1,114 @@
+{
+    "message": "加载信息成功",
+    "state": "1",
+    "data": {
+        "0": {
+            "average": "0",
+            "evaluate": {},
+            "house": {
+                "id": "3",
+                "createtime": "2017-09-04 15:03:41.0",
+                "createuser": "技术员",
+                "createid": "1",
+                "updatetime": {},
+                "updateuser": {},
+                "updateid": {},
+                "count": {},
+                "sorts": {},
+                "type": "1",
+                "state": {},
+                "title": "日租标题",
+                "describes": "<P>日租内容</P>",
+                "keyword": "日租关键词1,日租关键词1",
+                "cost": "20.00",
+                "pledge": "20.00",
+                "housetype": "日租户型",
+                "images": "http://img3.redocn.com/tupian/20150312/haixinghezhenzhubeikeshiliangbeijing_3937174.jpg",
+                "evaluates": {},
+                "orientation": "日租朝向",
+                "acreage": "200平方米",
+                "address": "贵州省毕节市黔西县莲城街道金凤大道",
+                "coord": "106.034226,27.005986",
+                "floor": "20层",
+                "decoration": "精装",
+                "purpose": "一般",
+                "belong": "自用",
+                "phone": "13838384381",
+                "facility": "1,2,6",
+                "wage": "0.00",
+                "istop": {}
+            },
+            "facility": {
+                "0": {
+                    "id": "1",
+                    "name": "床",
+                    "english": "bed"
+                },
+                "1": {
+                    "id": "2",
+                    "name": "宽带",
+                    "english": "broadband"
+                },
+                "2": {
+                    "id": "6",
+                    "name": "空调",
+                    "english": "conditioner"
+                }
+            }
+        },
+        "1": {
+            "average": "0",
+            "evaluate": {},
+            "house": {
+                "id": "3",
+                "createtime": "2017-09-04 15:03:41.0",
+                "createuser": "技术员",
+                "createid": "1",
+                "updatetime": {},
+                "updateuser": {},
+                "updateid": {},
+                "count": {},
+                "sorts": {},
+                "type": "1",
+                "state": {},
+                "title": "日租标题",
+                "describes": "<P>日租内容</P>",
+                "keyword": "日租关键词1,日租关键词1",
+                "cost": "20.00",
+                "pledge": "20.00",
+                "housetype": "日租户型",
+                "images": "http://img3.redocn.com/tupian/20150312/haixinghezhenzhubeikeshiliangbeijing_3937174.jpg",
+                "evaluates": {},
+                "orientation": "日租朝向",
+                "acreage": "200平方米",
+                "address": "贵州省毕节市黔西县莲城街道金凤大道",
+                "coord": "106.034226,27.005986",
+                "floor": "20层",
+                "decoration": "精装",
+                "purpose": "一般",
+                "belong": "自用",
+                "phone": "13838384381",
+                "facility": "1,2,6",
+                "wage": "0.00",
+                "istop": {}
+            },
+            "facility": {
+                "0": {
+                    "id": "1",
+                    "name": "床",
+                    "english": "bed"
+                },
+                "1": {
+                    "id": "2",
+                    "name": "宽带",
+                    "english": "broadband"
+                },
+                "2": {
+                    "id": "6",
+                    "name": "空调",
+                    "english": "conditioner"
+                }
+            }
+        }
+    }
+}
