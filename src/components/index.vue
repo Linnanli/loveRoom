@@ -100,7 +100,7 @@ export default {
   },
   created() {
     this.$store.state.footerSelect = 1;
-    // this.getUserInfo(); //测试时候获取用户信息
+    this.getUserInfo(); //测试时候获取用户信息
     this.getFacilityList();
     //获取推荐房源数据
     this.getRecommendHouse();

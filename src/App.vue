@@ -26,7 +26,7 @@
       },
       init() {
         var hrefs = window.location.href;
-        console.log(this.GetQueryString('code'));
+        // console.log(this.GetQueryString('code'));
         // var CODE = hrefs.indexOf('?') !== -1?hrefs.split("?")[1].split("&")[0].split("=")[1]:'';
         var CODE = this.GetQueryString('code');
         var API = this.$store.state.api;

@@ -1,6 +1,6 @@
 # 爱民居
 
-基于vue框架开发的微信公众号webApp
+基于vue框架开发的微信公众号webApp.(微信搜索公众号爱民居)
 
 项目地址:[爱民居](http://www.aiminju.cn/?code=0713KrJa0jn3Jw1c0GJa0vKiJa03KrJG&state=index)
 

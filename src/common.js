@@ -119,8 +119,8 @@ module.exports = {
       var that = this;
       var API = this.$store.state.api;
       var userInfo = this.getLocation("userInfo"); //判断是否是第一次登录的时候,获取的用户信息
-      // userInfo = {};//测试语句
-      // userInfo.openid = "obJDz0oGOVhCrVQTUmeh9-T2D2Pk"; //测试
+      userInfo = {};//测试语句
+      userInfo.openid = "obJDz0oGOVhCrVQTUmeh9-T2D2Pk"; //测试
       // userInfo.openid = 'obJdzOvi9GYT3XmxqaEe7LSNVDtg';
       if (userInfo.openid) {
 
